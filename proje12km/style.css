@@ -1,0 +1,210 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+ }
+html {
+  font-size: 62.5%;
+  font-family: 'Kalam', cursive;
+}
+body{
+  background-color: rgb(94, 79, 109);
+}
+.container{
+width: 100%;
+height:auto;
+background-color: rgb(94, 79, 109);
+background-size: 100% 100%;
+}
+.ustbar{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem;
+  position: relative;
+  height: 17rem;
+}
+.ustbar .tuslar a {
+  text-decoration: none;
+  color: black;
+}
+.ustbar .logoana{
+position: absolute;
+left: 90rem;
+  width: 19rem;
+  height: 17rem;
+}
+.ustbar .arama{
+  position: absolute;
+  left: 30rem;
+  top: 10rem;
+background-color: white;
+border: 1px solid black;
+  border-radius: 1.5rem;
+  height: 4rem;
+  width: 30rem;
+  padding-left: 2rem;
+}
+.ustbar .arama input{
+  height: 4rem;
+  width: 25rem;
+  border: none;
+outline: none;  
+}
+.ustbar .arama i{
+  margin-right: 1rem;
+  font-size: 1.5rem
+}
+.ustbar .tuslar{
+  position: absolute;
+  right: 30rem;
+  top: 10rem;
+  font-size: 4rem;
+}
+.ustbar .tuslar .bi-person-circle{
+  margin-left: 1rem;
+}
+.govde .kategoriler{
+  display: flex;
+justify-content: center;
+list-style-type: none;
+font-size: 3rem;
+margin-top: 5rem;
+}
+.govde .kategoriler li{
+  margin-left: 5rem;
+}
+.govde .kategoriler li a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 0rem solid black;
+}
+.govde .kategoriler li a:hover {
+  border-bottom: 0.3rem solid rgb(202, 0, 139);
+}
+.govde .takikismi{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  grid-column-gap: 2rem;
+}
+.govde .takikismi img {
+  width: 45rem;
+height: 45rem;  
+}
+.govde .takikismi p{
+color: white;
+font-size: 2rem;
+}
+.takikismi p{
+font-family: 'Kalam', cursive;
+}
+
+.shopping-cart{
+  position: relative;
+}
+
+.btn-cart {
+  background-color: white;
+  border-color: white;
+  color:rgb(94, 79, 109) ;
+  position: relative;
+  font-size: 3rem;
+}
+
+.sepetsayisi{
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  margin-left: 100%;
+  transform: translateX(-100%);
+  background-color: #dc3545; /* Bootstrap'taki danger rengi */
+  color: #fff; /* Metin rengi - isteğe bağlı olarak değiştirilebilir */
+  padding: 0.3em 0.6em; /* İsteğe bağlı olarak içeriği ve dolgu miktarını ayarlayabilirsiniz */
+  border-radius: 10px; 
+  border-radius: 10px; /* İsteğe bağlı olarak yuvarlaklık miktarını ayarlayabilirsiniz */
+  padding: 0.3em 0.6em; 
+font-size: 1rem;
+}
+.shopping-cart-list{
+  display: none;
+  position: absolute;
+  right: -0.75rem;
+  width: 55rem;
+  background-color:rgb(202, 0, 139) ; /* Bootstrap'taki primary rengi */
+  color: black; 
+  padding-left: 2rem;
+  z-index: 20;
+  padding-bottom: 2rem;
+}
+
+.shopping-cart-list .listeyazisi{
+font-size: 2rem;
+color: white;
+margin-top:2rem;
+margin-bottom: 2rem;
+}
+
+.list-item{
+  display: grid;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.list-item .sepet1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+
+.list-item .sepet1 img{
+  width: 8rem;
+  height: 8rem;
+}
+
+
+.btn-info{
+  color: rgb(94, 79, 109);
+  width: 14rem;
+  height: 6rem;
+  background-color: white;
+  margin-top: 10rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  border-radius: 5rem;
+  margin-top: 20rem;
+}
+
+.visible {
+  display: block !important;
+}
+
+.btn-delete{
+  background-color: rgb(202, 0, 139) ; 
+  border:none;
+}
+
+
+.bi-trash{
+  background-color: rgb(202, 0, 139) ;
+  border:none;
+  outline: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.1rem;
+  box-shadow: none;
+  
+}
+
+.taki-fiyat{
+  margin-bottom: 3.5rem;
+}
+
+
+
